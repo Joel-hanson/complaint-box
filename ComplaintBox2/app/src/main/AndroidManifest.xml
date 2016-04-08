@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.achal.complaintbox">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainUserIDActivity"
+            android:label="@string/title_activity_main_user_id"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.achal.complaintbox.MainUserIDActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainCategoryActivity"
+            android:label="@string/title_activity_main_category"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.achal.complaintbox.MainCategoryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainReadWriteActivity"
+            android:label="@string/title_activity_main_read_write"
+            android:theme="@style/AppTheme.NoActionBar">
+            <action android:name="com.example.achal.complaintbox.MainReadWriteActivity" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name=".MainReadActivity"
+            android:label="@string/title_activity_main_read"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <intent-filter>
+            <action android:name="com.example.achal.registrationform.MainReadActivity" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".MainWriteActivity"
+            android:label="@string/title_activity_main_write"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.achal.registrationform.MainWriteActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adharcard" />
+        <activity android:name=".register"></activity>
+    </application>
+
+</manifest>

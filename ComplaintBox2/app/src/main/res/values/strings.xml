@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Complaint Box</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_user_id">MainUserIDActivity</string>
+    <string name="title_activity_main_category">MainCategoryActivity</string>
+
+    <string-array name="category_names">
+        <item>KSEB</item>
+        <item>PWD</item>
+        <item>Civil Supplies</item>
+
+
+    </string-array>
+
+    <string-array name="area_names">
+        <item>Trissur</item>
+        <item>Irinjalakuda</item>
+        <item>Chalakudy</item>
+        <item>Cherpu</item>
+        <item>Natikka</item>
+        <item>Vadanapally</item>
+
+
+    </string-array>
+    <string name="title_activity_main_read_write">MainReadWriteActivity</string>
+    <string name="write">READ</string>
+    <string name="title_activity_main_read">MainReadActivity</string>
+    <string name="title_activity_main_write">MainWriteActivity</string>
+
+</resources>
